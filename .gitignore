@@ -1,0 +1,12 @@
+# Don't upload secret files
+.env
+*.env
+.env.local
+.env.*.local
+
+# Don't upload data files
+*.csv
+*.db
+*.sqlite
+real_data/
+powerbi_exports/
